@@ -1,0 +1,25 @@
+.topbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__info{
+        
+        &-container{
+            display: flex;
+            list-style: none;
+
+            a{
+                margin: 15px;
+            }
+            
+        }
+    }
+
+    &__rrss{
+        display: flex;
+        
+    }
+  
+}

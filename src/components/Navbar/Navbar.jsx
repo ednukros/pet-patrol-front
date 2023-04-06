@@ -4,8 +4,9 @@ import "./Navbar.scss"
 const Navbar = () => {
     return (
         <div className='navbar'>
+              {/* aqui irá el logo */}
             <h1>Pet Patrol</h1>
-            <nav>
+            <nav className='navbar__anchors'>
                 <a href="/">Inicio</a>
                 <a href="/">Pide cita</a>
                 <a href="/">Servicios</a>
